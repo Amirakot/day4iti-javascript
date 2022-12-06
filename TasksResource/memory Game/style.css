@@ -1,0 +1,16 @@
+#main{
+width: 480px;
+margin: 0 auto;
+    background-color: gray;
+  overflow: hidden;
+}
+div{
+    float: left;
+text-align: center;
+background-image:url("./img/Moon.gif") ;
+  border-radius: 10px;
+  
+}
+img{
+    opacity: 0;
+}

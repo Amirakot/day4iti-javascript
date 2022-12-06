@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <style>
+        .center {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div id="header">
+
+            <img src="dom.jpg"id="demo"  alt="hello..it rains over here:)" />
+        <img src="dom.jpg
+           "id="demo2"  style="display: none;position: absolute;" alt="hello..it rains over here:)" />
+           <img src="dom.jpg
+           "id="demo3" style="display: none;position: absolute;" alt="hello..it rains over here:)" />
+        </div>
+        <div id="navigation">
+            <ul id="nav">
+                <li><strong>Memo</strong></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+<script>
+    var image=document.getElementById("demo");
+    image.addEventListener("click",function(){
+        image.style.visibility="hidden";
+        var demo2=document.getElementById("demo2");
+var demo3=document.getElementById("demo3")
+demo2.style.display="block";
+demo2.style.bottom=0+"px";
+demo3.style.display="block";
+demo3.style.top=0+"px";
+demo3.style.right=0+"px";  
+})
+
+</script>
+</body>
+
+
+
+</html>
